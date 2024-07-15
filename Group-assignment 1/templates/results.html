@@ -1,0 +1,30 @@
+<!-- templates/results.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Processing Results</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Data Processing Results</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="results-container">
+            <h2>Data Characteristics</h2>
+            {{ data_summary | safe }}
+
+            <h2>Performance Analysis</h2>
+            <img src="{{ plot_path }}" alt="Performance Plot" class="performance-plot">
+        </div>
+    </div>
+
+
+</body>
+</html>
