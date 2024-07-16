@@ -22,3 +22,13 @@ After executing a trading strategy, the Post-Trade Analysis module analyzes the 
 - Calculation of performance metrics such as Sharpe ratio, Sortino ratio, and maximum drawdown
 - Visualization of results through charts and graphs (e.g., cumulative returns, monthly returns heatmap)
 - Comparison against benchmark indices (e.g., Nifty index) for performance assessment
+
+## Web Interface Development:
+Built a user-friendly web interface using FastAPI:
+Integrated input forms for specifying ticker name, start date, and end date.
+Implemented pages for data preprocessing, strategy scripting, and post-trade analysis visualization.
+Utilized HTML and CSS for frontend design, facilitating interactive strategy scripting and result visualization.
+
+## Technologies Used:
+Languages and Libraries: Python, Pandas, Matplotlib, HTML, CSS.
+Frameworks: FastAPI for backend development and API integration.
